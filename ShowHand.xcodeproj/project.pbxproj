@@ -12,6 +12,8 @@
 		5FE3BE5F211EDDF8002C44E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE3BE5D211EDDF8002C44E0 /* Main.storyboard */; };
 		5FE3BE61211EDDFA002C44E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE3BE60211EDDFA002C44E0 /* Assets.xcassets */; };
 		5FE3BE64211EDDFA002C44E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE3BE62211EDDFA002C44E0 /* LaunchScreen.storyboard */; };
+		5FE3BE6C211EE02A002C44E0 /* SwitchPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3BE6B211EE02A002C44E0 /* SwitchPlayerViewController.swift */; };
+		5FE3BE6E211EE0AD002C44E0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3BE6D211EE0AD002C44E0 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5FE3BE60211EDDFA002C44E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FE3BE63211EDDFA002C44E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FE3BE65211EDDFA002C44E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE3BE6B211EE02A002C44E0 /* SwitchPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchPlayerViewController.swift; sourceTree = "<group>"; };
+		5FE3BE6D211EE0AD002C44E0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				5FE3BE59211EDDF8002C44E0 /* AppDelegate.swift */,
 				5FE3BE5B211EDDF8002C44E0 /* ViewController.swift */,
 				5FE3BE5D211EDDF8002C44E0 /* Main.storyboard */,
+				5FE3BE6D211EE0AD002C44E0 /* Card.swift */,
+				5FE3BE6B211EE02A002C44E0 /* SwitchPlayerViewController.swift */,
 				5FE3BE60211EDDFA002C44E0 /* Assets.xcassets */,
 				5FE3BE62211EDDFA002C44E0 /* LaunchScreen.storyboard */,
 				5FE3BE65211EDDFA002C44E0 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE3BE6C211EE02A002C44E0 /* SwitchPlayerViewController.swift in Sources */,
 				5FE3BE5C211EDDF8002C44E0 /* ViewController.swift in Sources */,
 				5FE3BE5A211EDDF8002C44E0 /* AppDelegate.swift in Sources */,
+				5FE3BE6E211EE0AD002C44E0 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
