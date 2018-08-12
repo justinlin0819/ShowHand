@@ -11,25 +11,32 @@ import UIKit
 class SwitchPlayerViewController: UIViewController {
 
     
-    @IBOutlet var label_card: [UILabel]!
     
     @IBOutlet var image_card: [UIImageView]!
     
-    var card=[String]()
+    @IBOutlet weak var button_card: UIButton!
+    
     var cards=[Card]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
-        for i in 0...9 {
-            self.label_card[i].text=self.card[i]
-        self.image_card[i].image=UIImage(named: cards[i].image)
+        self.image_card[0].image=UIImage(named: cards[0].image)
+        self.image_card[1].image=UIImage(named: cards[2].image)
+        for i in 3...9 {
+        self.image_card[i-1].image=UIImage(named: cards[i].image)
         }
         image_card[0].image=UIImage(named: "back")
     }
-    
 
+    @IBAction func open_card(_ sender: Any) {
+        button_card.setBackgroundImage(UIImage(named: cards[1].image), for: .normal)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+            button_card.setBackgroundImage(UIImage(named: "back"), for: .normal)
+    }
+    
     /*
     // MARK: - Navigation
 
